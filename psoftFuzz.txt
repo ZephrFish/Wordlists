@@ -1,0 +1,12 @@
+?cmd=viewconfig&pwd=dayoff 
+?cmd=reloadconfig&pwd=dayoff 
+?cmd=viewsprop&pwd=dayoff 
+?cmd=debugCache&pwd=dayoff 
+?cmd=purge&pwd=dayoff 
+?cmd=resettimeout&pwd=dayoff
+?cmd=removeNodeCache&pwd=dayoff
+?cmd=removeUserCache&pwd=dayoff
+?cmd=manifestKeyCache&pwd=dayoff
+?cmd=showCacheMetrics&pwd=dayoff
+?cmd=resetlog&pwd=dayoff
+?cmd=manifestCache&pwd=dayoff
