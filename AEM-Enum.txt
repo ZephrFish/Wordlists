@@ -4,7 +4,7 @@
 /bin/querybuilder.json.css?path=/home/&p.limit=8
 /bin/querybuilder.json?path=/libs/ 
 /bin/querybuilder.json?path=/content 
-/bin/querybuilder.json?path=/content/hsbc/hbnz/en_nz/security/ 
+/bin/querybuilder.json?path=/content/test/test/en_nz/security/ 
 /bin/querybuilder.json?path=/crx/&p.hits=full&p.limit=50 
 /bin/querybuilder.json?path=/home&p.hits=full&p.limit=-1 
 /bin/querybuilder.json?fulltext=admin&p.limit=30 
